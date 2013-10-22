@@ -2,6 +2,10 @@
   <h1>Here's a person!</h1>
 
   <%= @person.name %><br>
-  <%= @person.age %>
+  <%= @person.age %><br><br>
+
+  <a href='/people/<%= @person.id %>/edit'>Edit this person's page?</a><br>
+
+  <a href='/people/<%= @person.id %>/delete'>Delete this person?</a>
 
 </div>

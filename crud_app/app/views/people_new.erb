@@ -1,16 +1,4 @@
 <div class="container">
   <h1>Create a new person!</h1>
-
-  <form action="/people" method="post">
-
-    <label>Name<input type="text" name="people[name]"></label><br>
-
-
-    <label>Age<input type="text" name="people[age]"></label><br>
-
-    <input type="submit" name="click me!">
-
-
-  </form>
-
+  <%= erb :_people_new_form, layout: false %>
 </div>
